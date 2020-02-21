@@ -21,7 +21,7 @@ namespace HandsOnAPIDemo2.Controllers
         }
         [HttpGet]
         [Route("GetById/{id}")]
-        public IActionResult Get(int id)
+        public IActionResult Get(string id)
         {
             return Ok(repository.GetById(id));
         }

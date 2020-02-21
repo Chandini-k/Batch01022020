@@ -16,7 +16,7 @@ namespace HandsOnAPIDemo2.Repositories
             }
         }
         //Get Employee By Id
-        public Employee GetById(int eid)
+        public Employee GetById(string eid)
         {
             using(EMSDBContext db=new EMSDBContext())
             {
