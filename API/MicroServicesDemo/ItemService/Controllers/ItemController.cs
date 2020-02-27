@@ -6,10 +6,13 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ItemService.Models;
 using ItemService.Repositories;
+using Microsoft.AspNetCore.Authorization;
+
 namespace ItemService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize()]
     public class ItemController : ControllerBase
     {
         private readonly IItemRepository _repo;
@@ -77,7 +80,7 @@ namespace ItemService.Controllers
             }
         }
         [HttpDelete]
-        [Route("Delete")]
+        [Route("Delete/{id}")]
         public IActionResult Delete(string id)
         {
             try

@@ -25,6 +25,18 @@
 			],
 			"UpstreamPathTemplate": "/Order/{catchAll}"
 
+		},
+		{
+			"DownstreamPathTemplate": "/api/Login/{catchAll}",
+			"DownstreamScheme": "http",
+			"DownstreamHostAndPorts": [
+				{
+					"Host": "localhost",
+					"Port": 50493
+				}
+			],
+			"UpstreamPathTemplate": "/Login/{catchAll}"
+
 		}
 	],
 	"GlobalConfiguration": {

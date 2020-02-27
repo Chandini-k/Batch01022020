@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemService", "ItemService\ItemService.csproj", "{17A83517-5CDA-48D4-948E-3CFFE6890F19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ItemService", "ItemService\ItemService.csproj", "{17A83517-5CDA-48D4-948E-3CFFE6890F19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{E76D556C-C460-4908-82B1-981296568C73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService", "OrderService\OrderService.csproj", "{E76D556C-C460-4908-82B1-981296568C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateWay", "GateWay\GateWay.csproj", "{B67C939B-5D77-454F-A327-05A5493D6D6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GateWay", "GateWay\GateWay.csproj", "{B67C939B-5D77-454F-A327-05A5493D6D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountService", "AccountService\AccountService.csproj", "{59F4C381-74B9-44B9-852B-C24AD7DBE1D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B67C939B-5D77-454F-A327-05A5493D6D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B67C939B-5D77-454F-A327-05A5493D6D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B67C939B-5D77-454F-A327-05A5493D6D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F4C381-74B9-44B9-852B-C24AD7DBE1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F4C381-74B9-44B9-852B-C24AD7DBE1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F4C381-74B9-44B9-852B-C24AD7DBE1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F4C381-74B9-44B9-852B-C24AD7DBE1D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

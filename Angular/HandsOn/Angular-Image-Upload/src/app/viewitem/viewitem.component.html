@@ -1,0 +1,21 @@
+<div class="container">
+  <table>
+    <tr>
+      <td>Name</td>
+      <td><input type="text" [(ngModel)]="name"></td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td><input type="file" [(ngModel)]="img"></td>
+    </tr>
+    <tr>
+      <td><button (click)="Upload()">Upload</button></td>
+    </tr>
+  </table>
+</div>
+<div *ngFor="let item of items">
+  <div >
+    <img [src]='item.img' style="height:50px; width:50px;">
+    Name:{{item.name}}
+  </div>
+</div>
