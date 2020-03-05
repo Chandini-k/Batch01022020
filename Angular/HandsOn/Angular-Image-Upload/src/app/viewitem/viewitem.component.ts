@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Item } from '../item';
-
+import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-viewitem',
   templateUrl: './viewitem.component.html',
@@ -11,7 +11,8 @@ items:Item[]=[];
 item:Item;
 name:string;
 img:string;
-  constructor() { }
+selectedFile : File = null;
+constructor(private http: HttpClient) { }
 
   ngOnInit() {
   }
@@ -22,8 +23,12 @@ img:string;
     this.item.img=this.img;
     console.log(this.item)
     this.items.push(this.item);
-    location.
+    console.log(this.items);
 
   }
+  fileEvent(event){
+    this.img = event.target.files[0].name;
+}
+
 
 }

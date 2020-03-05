@@ -22,8 +22,8 @@ D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\GateWay\bin\Debug\netcoreapp3
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\GateWay\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\GateWay\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\GateWay\bin\Debug\netcoreapp3.1\Ocelot.dll
-D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\GateWay\obj\Debug\netcoreapp3.1\GateWay.MvcApplicationPartsAssemblyInfo.cs
-D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\GateWay\obj\Debug\netcoreapp3.1\GateWay.MvcApplicationPartsAssemblyInfo.cache
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\GateWay\obj\Debug\netcoreapp3.1\GateWay.csproj.CopyComplete
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\GateWay\obj\Debug\netcoreapp3.1\GateWay.dll
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\GateWay\obj\Debug\netcoreapp3.1\GateWay.pdb
+D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\GateWay\obj\Debug\netcoreapp3.1\GateWay.MvcApplicationPartsAssemblyInfo.cs
+D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\GateWay\obj\Debug\netcoreapp3.1\GateWay.MvcApplicationPartsAssemblyInfo.cache

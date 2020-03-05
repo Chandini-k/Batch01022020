@@ -43,6 +43,7 @@ namespace ItemService
             });
 
             services.AddControllers();
+            //JWT
              JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
             services.AddAuthentication(options =>
             {

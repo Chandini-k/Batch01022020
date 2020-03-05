@@ -16,8 +16,11 @@ export class LoginComponent implements OnInit {
   Validate()
   {
     this.service.Validate('Admin','12345').subscribe(res=>{
-      localStorage.setItem('token',res.token)
-      if(res.token==""||res.token==null)
+      if(res.uname=='Admin')
+      {
+        alert("Admin");
+      }
+      else if(res.token==""||res.token==null)
       {
         console.log('Invalid Id');
       }

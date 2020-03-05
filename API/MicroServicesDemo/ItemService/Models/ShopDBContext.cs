@@ -23,7 +23,7 @@ namespace ItemService.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-G33N13I\\SQLEXPRESS;Initial Catalog=ShopDB;User ID=sa;Password=pass@word1");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-G33N13I\\SQLEXPRESS;Database=ShopDB;User ID=sa;Password=pass@word1");
             }
         }
 
