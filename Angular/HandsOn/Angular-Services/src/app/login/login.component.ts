@@ -18,7 +18,9 @@ export class LoginComponent implements OnInit {
     this.service.Validate('Admin','12345').subscribe(res=>{
       if(res.uname=='Admin')
       {
-        alert("Admin");
+        localStorage.setItem('token',res.token)
+      console.log(res)
+      this.router.navigateByUrl('item');
       }
       else if(res.token==""||res.token==null)
       {

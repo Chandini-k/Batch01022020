@@ -2,7 +2,6 @@ D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\bin\Debug\netcore
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\bin\Debug\netcoreapp3.1\appsettings.json
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\bin\Debug\netcoreapp3.1\ItemService.exe
-D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\obj\Debug\netcoreapp3.1\ItemService.csprojAssemblyReference.cache
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\obj\Debug\netcoreapp3.1\staticwebassets\ItemService.StaticWebAssets.Manifest.cache
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\obj\Debug\netcoreapp3.1\staticwebassets\ItemService.StaticWebAssets.xml
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\obj\Debug\netcoreapp3.1\ItemService.AssemblyInfoInputs.cache
@@ -128,3 +127,4 @@ D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\bin\Debug\netcore
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\obj\Debug\netcoreapp3.1\ItemService.MvcApplicationPartsAssemblyInfo.cache
+D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\ItemService\obj\Debug\netcoreapp3.1\ItemService.csprojAssemblyReference.cache
