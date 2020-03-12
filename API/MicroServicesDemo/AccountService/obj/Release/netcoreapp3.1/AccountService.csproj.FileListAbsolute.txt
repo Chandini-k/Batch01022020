@@ -96,3 +96,4 @@ D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\AccountService\obj\Release\ne
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\AccountService\obj\Release\netcoreapp3.1\AccountService.csproj.CopyComplete
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\AccountService\obj\Release\netcoreapp3.1\AccountService.dll
 D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\AccountService\obj\Release\netcoreapp3.1\AccountService.pdb
+D:\CTS\Batches\Batch01022020\API\MicroServicesDemo\AccountService\obj\Release\netcoreapp3.1\AccountService.csprojAssemblyReference.cache

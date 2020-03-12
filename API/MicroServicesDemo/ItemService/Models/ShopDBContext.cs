@@ -23,7 +23,7 @@ namespace ItemService.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-G33N13I\\SQLEXPRESS;Initial Catalog=ShopDB;User ID=sa;Password=pass@word1");
+                optionsBuilder.UseSqlServer("Server=tcp:172.17.176.225,1433;Database=ShopDB;User ID=sa;Password=pass@word1");
             }
         }
 
@@ -32,7 +32,7 @@ namespace ItemService.Models
             modelBuilder.Entity<Items>(entity =>
             {
                 entity.HasKey(e => e.Itemid)
-                    .HasName("PK__items__56A22C921C1B0F6A");
+                    .HasName("PK__items__56A22C92F4CC08F3");
 
                 entity.ToTable("items");
 
@@ -54,7 +54,7 @@ namespace ItemService.Models
             modelBuilder.Entity<Orders>(entity =>
             {
                 entity.HasKey(e => e.Orderid)
-                    .HasName("PK__orders__080E3775401299FD");
+                    .HasName("PK__orders__080E3775BEB83278");
 
                 entity.ToTable("orders");
 
@@ -75,7 +75,7 @@ namespace ItemService.Models
                 entity.HasOne(d => d.Item)
                     .WithMany(p => p.Orders)
                     .HasForeignKey(d => d.Itemid)
-                    .HasConstraintName("FK__orders__itemid__164452B1");
+                    .HasConstraintName("FK__orders__itemid__1273C1CD");
             });
 
             OnModelCreatingPartial(modelBuilder);
